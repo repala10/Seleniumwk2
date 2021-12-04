@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.test.locators.TestlocatorID
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 22.769 sec <<< FAILURE!
+VerifyLocatorID(com.test.locators.TestlocatorID)  Time elapsed: 5.017 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.test.locators.TestlocatorID.VerifyLocatorID(TestlocatorID.java:33)
+
+tearDown(com.test.locators.TestlocatorID)  Time elapsed: 5.09 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.test.locators.TestlocatorID.tearDown(TestlocatorID.java:45)
+
